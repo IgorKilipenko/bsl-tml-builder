@@ -1,0 +1,19 @@
+{
+  "name": "bsl-tml-builder",
+  "displayName": "1C:Community TML Language builder",
+  "description": "Bsl 1C TML Language builder",
+  "version": "0.0.1",
+  "publisher": "IgorKilipenko",
+  "scripts": {
+    "pretest": "npm run compile-tests && npm run compile && npm run lint",
+    "lint": "eslint ./src --ext .ts,.tsx",
+    "test": "node ./out/test/runTest.js"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.4",
+    "@typescript-eslint/eslint-plugin": "^6.13.2",
+    "@typescript-eslint/parser": "^6.13.2",
+    "eslint": "^8.55.0",
+    "typescript": "^5.3.3"
+  }
+}
