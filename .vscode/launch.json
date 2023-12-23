@@ -17,6 +17,7 @@
       "sourceMaps": true,
       "runtimeArgs": ["--preserve-symlinks-main", "--preserve-symlinks"],
       "resolveSourceMapLocations": ["${workspaceFolder}/out/**/*.js"],
+      "cwd": "${workspaceFolder}/src"
     }
   ]
 }
